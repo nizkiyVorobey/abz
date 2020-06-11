@@ -1,0 +1,19 @@
+@import "../../constants/constatns.scss";
+
+.header-nav {
+    &-list {
+      display: flex;
+    }
+  
+    &-item {
+      margin-left: 29px;
+      font-size: 14px;
+      margin-right: 0px;
+    }
+  }
+  
+  .desktop-header-nav-item-link {
+    &:hover {
+      color: $orange-color;
+    }
+  }

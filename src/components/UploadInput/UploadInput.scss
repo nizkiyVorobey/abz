@@ -1,0 +1,30 @@
+@import "../../constants/constatns.scss";
+
+.custom-loaded-file {
+    display: none;
+}
+
+.custom-input-file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $input-placeholder;
+  font-size: 16px;
+}
+
+.loaded {
+  &-file-browser {
+    background-color: #f8f7f5;
+    font-size: 16px;
+    line-height: 28px;
+    color: $dark-color;
+    font-family: "PT Sans";
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  &-file-title {
+      margin: 5px auto;
+      display: block;
+  }
+}

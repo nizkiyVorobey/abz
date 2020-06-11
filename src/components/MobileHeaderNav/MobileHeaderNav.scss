@@ -1,0 +1,52 @@
+@import "../../constants/constatns.scss";
+
+.mobile-header-logo-wrapper {
+    padding-left: 12px;
+}
+
+.mobile-header-nav {
+  padding-bottom: 40px;
+
+  &-overlay {
+    background-color: rgba(128,136,124, 0.3);
+    width: 100%;
+    top: 0;
+    left: -100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  &-wrapper {
+      position: relative;
+      width: 80%;
+      background-color: #fff;
+      overflow: hidden;
+      z-index: 3;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+  }
+
+  &-list:first-child {
+    margin-top: 0px;
+  }
+
+  &-item {
+    padding-left: 12px;
+    margin-top: 29px;
+  }
+
+  &-item-link {
+    &:hover {
+      color: $blue-color;
+    }
+  }
+
+}
+
+.mobile-menu-nav-block {
+    border-top: 1px solid #e1e1e1;
+}

@@ -1,0 +1,79 @@
+@import "../../constants/constatns.scss";
+
+.register {
+    font-weight: 400;
+    font-family: "PT Sans";
+
+  &-wrapper {
+    padding: 150px 0;
+  }
+
+  &-common-title {
+    max-width: 450px;
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  &-second-title {
+    text-align: center;
+  }
+
+  &-form {
+    max-width: 467px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  &-field-item {
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 28px;
+    width: -webkit-fill-available;
+
+    &:placeholder {
+        color: $input-placeholder;
+    }
+  }
+
+  &-field-label {
+      margin: 6px 0;
+      display: block;
+      font-size: 16px;
+    line-height: 28px;
+    color: $dark-color;
+
+  }
+
+  &-field-wrapper {
+    margin-bottom: 20px;
+  }
+
+  &-radio-wrapper {
+      margin: 5px auto;
+  }
+
+  &-select-title {
+      margin: 20px auto;
+  }
+
+  &-upload-file-wrapper {
+      margin-top: 20px;
+  }
+
+  &-submit-btn {
+    margin: auto;
+    margin-top: 38px;
+  }
+}
+
+#loaded-photo-inp {
+    display: none;
+}
+
+.field-description {
+    font-size: 12px;
+    font-family: "Open Sans";
+}

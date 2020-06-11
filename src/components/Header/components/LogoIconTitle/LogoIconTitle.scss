@@ -1,0 +1,43 @@
+@import "../../../../constants/constatns.scss";
+
+.header {
+  &-logo-wrapper {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+
+  &-logo {
+    width: 16px;
+    height: 20px;
+    background-color: $blue-color;
+    position: relative;
+    margin: auto;
+  }
+
+  &-logo-title {
+    color: #fff;
+    text-align: center;
+    height: 12px;
+  }
+
+  &-logo-block {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+    display: block;
+  }
+
+  &-logo-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &-logo-text {
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+}

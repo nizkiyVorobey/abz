@@ -1,0 +1,15 @@
+.user-list {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    grid-row-gap: 47px;
+    margin-top: 65px;
+}
+
+@media screen and (min-width: 768px) {
+    .user-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  

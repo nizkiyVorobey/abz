@@ -1,0 +1,54 @@
+@import "../../constants/constatns.scss";
+
+.popup {
+  &-wrapper {
+    width: 390px;
+    background-color: white;
+  }
+
+  &-limiter {
+    padding: 0 14px;
+  }
+
+  &-section {
+    height: 90px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eceef1;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+  }
+
+  &-section-btn {
+    justify-content: flex-end;
+  }
+
+  &-btn {
+    width: 75px;
+  }
+
+  &-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &-title {
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 400;
+  }
+
+  &-massage {
+    font-size: 16px;
+    line-height: 24px;
+    color: $light-black-color;
+  }
+
+  &-cross {
+    cursor: pointer;
+    height: 14px;
+  }
+}

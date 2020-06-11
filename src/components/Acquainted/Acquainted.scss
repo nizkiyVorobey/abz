@@ -1,0 +1,69 @@
+@import "../../constants/constatns.scss";
+
+.acquainted {
+  padding-top: 154px;
+  padding-bottom: 150px;
+  line-height: 24px;
+
+  &-desctiption {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    // margin-top: 65px;
+    margin-top: 72px;
+  }
+
+  &-desctiption-img {
+    margin-right: 47px;
+    height: 275px;
+  }
+
+  &-desctiption-text {
+    max-width: 551px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &-desctiption-text-item {
+    margin-bottom: 12px;
+  }
+
+  &-desctiption-text-title {
+    margin-bottom: 12px;
+    text-align: left;
+  }
+
+  &-transparent-button {
+    margin-top: 19px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .acquainted {
+    padding-top: 80px;
+    padding-bottom: 65px;
+
+
+    &-desctiption {
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    &-desctiption-img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    &-desctiption-text-title {
+      text-align: center;
+    }
+
+    &-transparent-button {
+        margin: auto;
+        margin-top: 24px;
+      }
+  }
+}

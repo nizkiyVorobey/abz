@@ -1,0 +1,30 @@
+.cheerful-users {
+    background-color: #f9f9f3;
+    padding-top: 120px;
+    padding-bottom: 150px;
+
+    &-second-title {
+        text-align: center;
+        margin-top: 11px;
+    }
+
+    &-btn {
+        margin: auto;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cheerful-users {
+        padding-top: 170px;
+        padding-bottom: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .cheerful-users {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+  }
+  

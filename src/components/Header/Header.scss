@@ -1,0 +1,37 @@
+@import "../../constants/constatns.scss";
+
+header {
+  width: 100%;
+  z-index: 2;
+  height: auto;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.header {
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-nav-item-link {
+    color: $dark-color;
+  }
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+}
+
+.menu-icon-path {
+  fill: $blue-color;
+  fill-rule: evenodd;
+}

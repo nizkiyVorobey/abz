@@ -1,0 +1,55 @@
+.initial-banner {
+    height: 600px;
+    position: relative;
+    margin-top: 60px;
+
+    &-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        z-index: -1;
+    }
+
+    &-text-wrapper {
+        color: #fff;
+    }
+    
+    &-text-wrapper {
+        max-width: 535px;
+    }
+
+    &-main-title {
+     margin-bottom: 25px;
+     padding-top: 107px;
+    }
+
+    &-text {
+     margin-bottom: 34px;
+     line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .initial-banner {
+        height: auto;
+        padding-bottom: 65px;
+        
+        &-main-title {
+            padding-top: 65px;
+        }
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .initial-banner {
+        &-text-wrapper {
+            text-align: center;
+        }
+
+        &-btn {
+            margin: auto;
+        }
+    }
+  }

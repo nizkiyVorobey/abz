@@ -1,0 +1,70 @@
+@import "../../../../constants/constatns.scss";
+
+.user-item-card {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow-wrap: anywhere;
+  height: min-content;
+  margin: auto;
+
+  &-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  &-img-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 84px;
+    height: 80px;
+    border: 2px solid #fff;
+    margin-bottom: 17px;
+  }
+
+  &-img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+  }
+}
+
+.user-card {
+  &-occupation,
+  &-email,
+  &-phone {
+    color: $light-black-color;
+  }
+  &-name {
+    margin-bottom: 10px;
+  }
+  &-email {
+    margin: 4px auto;
+  }
+}
+
+.user-card-email {
+  &-sliced {
+    cursor: pointer;
+  }
+}
+
+.user-full-name {
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 2.5px rgba(0, 0, 0, 0.11));
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 14px;
+  padding: 0 10px;
+  word-break: break-all;
+
+  &-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-wrap: wrap;
+  }
+}
