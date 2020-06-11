@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nizkiyVorobey/abz/static/css/main.ed124c96.chunk.css",
+    "main.js": "/nizkiyVorobey/abz/static/js/main.6941e47e.chunk.js",
+    "main.js.map": "/nizkiyVorobey/abz/static/js/main.6941e47e.chunk.js.map",
+    "runtime-main.js": "/nizkiyVorobey/abz/static/js/runtime-main.b8c0bd2e.js",
+    "runtime-main.js.map": "/nizkiyVorobey/abz/static/js/runtime-main.b8c0bd2e.js.map",
+    "static/js/2.a423222a.chunk.js": "/nizkiyVorobey/abz/static/js/2.a423222a.chunk.js",
+    "static/js/2.a423222a.chunk.js.map": "/nizkiyVorobey/abz/static/js/2.a423222a.chunk.js.map",
+    "index.html": "/nizkiyVorobey/abz/index.html",
+    "precache-manifest.1411656befcd459a5c0423da83a6e7cf.js": "/nizkiyVorobey/abz/precache-manifest.1411656befcd459a5c0423da83a6e7cf.js",
+    "service-worker.js": "/nizkiyVorobey/abz/service-worker.js",
+    "static/css/main.ed124c96.chunk.css.map": "/nizkiyVorobey/abz/static/css/main.ed124c96.chunk.css.map",
+    "static/js/2.a423222a.chunk.js.LICENSE.txt": "/nizkiyVorobey/abz/static/js/2.a423222a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8c0bd2e.js",
+    "static/js/2.a423222a.chunk.js",
+    "static/css/main.ed124c96.chunk.css",
+    "static/js/main.6941e47e.chunk.js"
+  ]
+}
