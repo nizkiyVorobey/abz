@@ -5,7 +5,7 @@ import "./InitialBanner.scss";
 export const InitialBanner = () => {
     return (
         <div className="initial-banner">
-            <img src="/images/banner-photo.jpg" alt="banner" className="initial-banner-img" />
+            <img src="./images/banner-photo.jpg" alt="banner" className="initial-banner-img" />
             <div className="initial-banner-text-wrapper container">
                 <p className="main-title initial-banner-main-title">
                     Test assignment for Frontend Developer position

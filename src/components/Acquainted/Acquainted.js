@@ -8,9 +8,6 @@ export const Acquainted = () => {
             <p className="second-title">Let's get acquainted</p>
             <div className="acquainted-desctiption">
                 <div className="acquainted-desctiption-img">
-                    {/* <object type="image/svg+xml" data="./images/man-laptop-v1.svg" width="327" height="280" >
-                        Your browser does not support SVG
-                    </object> */}
                     <img src="./images/Layer 10.png" alt=""/>
                 </div>
 
