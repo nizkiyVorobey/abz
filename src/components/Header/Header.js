@@ -49,6 +49,7 @@ export const Header = () => {
         if (opendMobileMenu) {
             anime({
                 targets: 'header',
+                overflowY: "auto",
                 height: screenHeight,
                 duration: 1
             })
@@ -56,6 +57,7 @@ export const Header = () => {
             anime({
                 targets: 'header',
                 height: "60px",
+                overflowY: "none",
                 delay: 300,
                 duration: 1,
             })
