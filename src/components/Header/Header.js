@@ -51,13 +51,19 @@ export const Header = () => {
                 targets: 'header',
                 overflowY: "auto",
                 height: screenHeight,
+                scroll: () => {
+                    document.querySelector('header').style.overflowY = "auto";
+                },
                 duration: 1
             })
         } else {
             anime({
                 targets: 'header',
                 height: "60px",
-                overflowY: "none",
+                overflow: "none",
+                scroll: () => {
+                    document.querySelector('header').style.overflowY = "none";
+                },
                 delay: 300,
                 duration: 1,
             })
