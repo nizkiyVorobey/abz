@@ -37,7 +37,7 @@ export const UserItem = ({ userItem }) => {
 
                             </>
                         )
-                        : <p className="user-card-email"> userItem.email</p>
+                        : <p className="user-card-email">{userItem.email}</p>
                 }
                 <p className="user-card-phone">{userItem.phone}</p>
 
